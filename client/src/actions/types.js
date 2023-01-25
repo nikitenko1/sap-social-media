@@ -1,0 +1,43 @@
+export const SET_ALERT = 'SET_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+
+//
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT = 'LOGOUT';
+export const ACCOUNT_DELETED = 'ACCOUNT_DELETED';
+
+//
+export const GET_GROUP = 'GET_GROUP';
+export const GET_GROUPS = 'GET_GROUPS';
+export const GROUP_ERROR = 'GROUP_ERROR';
+export const CREATE_GROUP_FAIL = 'CREATE_GROUP_FAIL';
+export const CREATE_GROUP_SUCCESS = 'CREATE_GROUP_SUCCESS';
+export const DELETE_GROUP = 'DELETE_GROUP';
+export const UPDATE_GROUP_FOLLOWER = 'UPDATE_GROUP_FOLLOWER';
+export const GROUP_FOLLOWER_ERROR = 'GROUP_FOLLOWER_ERROR';
+
+//
+export const GET_POSTS = 'GET_POSTS';
+export const POST_ERROR = 'POST_ERROR';
+export const UPDATE_LIKES = 'UPDATE_LIKES';
+export const DELETE_POST = 'DELETE_POST';
+export const ADD_POST = 'ADD_POST';
+export const GET_POST = 'GET_POST';
+export const ADD_COMMENT = 'ADD_COMMENT';
+export const REMOVE_COMMENT = 'REMOVE_COMMENT';
+
+//
+export const GET_FRIENDS = 'GET_FRIENDS';
+export const GET_PROFILE = 'GET_PROFILE';
+export const GET_CONVERSATION_PROFILE = 'GET_CONVERSATION_PROFILE';
+export const PROFILE_ERROR = 'PROFILE_ERROR';
+export const CLEAR_PROFILE = 'CLEAR_PROFILE';
+export const UPDATE_FOLLOWER = 'UPDATE_FOLLOWER';
+export const GET_PROFILES = 'GET_PROFILES';
+export const FOLLOWER_ERROR = 'FOLLOWER_ERROR';
+export const GET_SEARCH_PROFILES = 'GET_SEARCH_PROFILES';
